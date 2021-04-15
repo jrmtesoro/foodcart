@@ -1,0 +1,26 @@
+body {
+    background: url('../material/img/bg_2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+  
+.navbar {
+    box-shadow: none;
+    /* border-bottom: 1px solid #171a29; */
+}
+
+.logo-image {
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+}
+
+.navbar.navbar-transparent {
+    color: #555;
+    padding-top: 10px;
+}
+
+li.nav-item.active {
+    background-color: #11cdef;
+    border-radius: 10px;
+    color: #fff;
+}

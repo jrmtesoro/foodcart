@@ -1,0 +1,22 @@
+input[type="file" i] {
+    font-size: 0.8rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.tag-editor {
+    line-height: 1.5;
+    padding: .25rem .5rem;
+    border-radius: .25rem; 
+    border: 1px solid #cad1d7;
+}
+
+ul.tag-editor > li {
+    margin-top: 6px;
+}
+
+.fa-eye, .fa-pencil-alt, .fa-trash-alt {
+    font-size: 1rem;
+}

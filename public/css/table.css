@@ -1,0 +1,33 @@
+table.dataTable {
+    margin-top: 0px !important;
+}
+
+.fas.fa-filter {
+    font-size: 0.9em;
+}
+
+form {
+    margin-block-end: 0;
+}
+
+.dataTables_wrapper {
+    font-family: Open Sans, sans-serif;
+    font-size: 0.9rem;
+}
+
+.dataTables_length>label,
+.dataTables_info {
+    margin-left: 1.5rem;
+}
+
+.dataTables_filter>label {
+    margin-right: 1.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin-right: 1.2rem;
+}
+
+div.dataTables_length {
+    margin-top: 0.75rem;
+}

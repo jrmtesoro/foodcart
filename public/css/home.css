@@ -1,0 +1,125 @@
+.list-group-item {
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.list-group-item.active {
+  background-color: #c40514;
+  color: white;
+}
+
+.list-group-item.active>i.circled-icon {
+  color: #c40514;
+  background-color: white;
+  transform: scale3d(1.2, 1.2, 1);
+}
+
+.list-group-item>i {
+  color: white;
+  background-color: #c40514;
+  transition: transform .5s cubic-bezier(.215, .61, .355, 1);
+}
+
+.page-item.active .page-link {
+  background-color: #c40514;
+  border-color: #c40514;
+}
+
+.list-group-item :first-child {
+  margin-right: 0.8rem;
+}
+
+.list-group-item:hover:not(.active) .material-icons {
+  box-shadow: 0 0 8px 3px #e9e9eb;
+  transform: scale3d(1.2, 1.2, 1);
+}
+
+.list-group-item:hover:not(.active) {
+  color: #c40514;
+  background-color: transparent;
+}
+
+.list-group {
+  padding: 35px 0px;
+  top: 80px;
+  box-shadow: 0 2px 4px 0 rgba(48, 56, 97, .2);
+}
+
+.circled-icon {
+  border-radius: 50%;
+  padding: 0.6rem;
+  margin-right: 0;
+}
+
+.side-bar {
+  padding-top: 20px;
+}
+
+.row>.card {
+  margin: 1rem;
+}
+
+.anchor {
+  height: 74px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-container {
+  width: 20rem;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 1rem;
+}
+
+.restaurant-container {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 20px 20px -10px rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.12); */
+  border: 1px solid #fff;
+}
+
+a:hover {
+
+}
+
+.restaurant-container>.card-body {
+  padding: 10px 0px 0px 0px;
+}
+
+.restaurant-container>.card-img-top {
+  border-radius: 0;
+}
+
+.restaurant-container>.card-body>.card-title {
+  margin: 0;
+}
+
+.d-flex>.h6 {
+  margin: 6px 0 0 0;
+  color: #6c757d;
+}
+
+.form-control,
+.is-focused .form-control {
+    background-image: linear-gradient(to top, #c40514 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.form-check .form-check-input:checked+.form-check-sign .check {
+    background: #c40514;
+}
+
+.card .card-header-info {
+  box-shadow: 0 3px 16px 0px rgba(0, 0, 0, 0.2), 0 8px 6px -8px rgba(0, 188, 212, 0.6)
+}
+
+.slick-slide {
+  margin: 0 15px;
+  transition: transform .5s cubic-bezier(.215, .61, .355, 1);
+}
+
+.slick-slide img {
+  height: 300px;
+}
+
+.slick-slide:hover {
+  transform: scale(1.05);
+}
